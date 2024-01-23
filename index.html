@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>third assignment</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- icons -->
+    <script src="https://kit.fontawesome.com/ae5f2100e8.js" crossorigin="anonymous"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- font style -->
+    <style>
+        .font-manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="font-manrope">
+    <header class="container mx-auto ">
+        <nav class="my-12">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-white rounded-box">
+                            <li><a href="">home</a></li>
+                            <li><a href="">about</a></li>
+                            <li><a href="">pages</a></li>
+                            <li><a href="">blog</a></li>
+                            <li><a href="">contact</a></li>
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost text-4xl font-bold">Hockey’s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a href=""><span class="text-[#FF4240]">Home</span></a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Pages</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end gap-4">
+                    <div class="">
+                        <a><i class=" fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                    <a class="btn px-6 text-white bg-[#FF4240]">Get Ticket</a>
+                </div>
+            </div>
+        </nav>
+        <!-- slider image sectiion -->
+        <section>
+            <div class="carousel mx-5 lg:mx-5">
+                <!-- slide 1 -->
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="Images/1.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <!-- slide 2 -->
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="Images/2.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <!--slide 3  -->
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="Images/3.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <!-- slide 4 -->
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="Images/4.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </header>
+    <main class="container mx-auto">
+        <!-- professional section -->
+        <div>
+            <div class="text-center my-20">
+                <h3 class="text-4xl font-extrabold">
+                    Professional Hockeys Club
+                </h3>
+                <p class="lg:w-1/2 mx-4 lg:mx-auto py-5">Hockey is the national game of india.Also, it is a popular game
+                    and an interseting game that many countries play.The game has many rules that need to be followed by
+                    each team so that a fair play can be conducted.</p>
+            </div>
+            <div class="flex flex-col lg:flex-row ">
+                <div class="text-center ">
+                    <div class="font-extrabold  text-red-600">
+                        <div class="radial-progress" style="--value:87;" role="progressbar">87%</div>
+                    </div>
+                    <h3 class="py-5 font-semibold">Player Facility</h3>
+                    <p>Most hockey field dimensions were originaly fixed using whole numbers of imperial measures</p>
+                </div>
+                <div class="text-center">
+                    <div class="font-extrabold text-green-500">
+                        <div class="radial-progress " style="--value:95;" role="progressbar">95%</div>
+                    </div>
+                    <h3 class="py-5 font-semibold">Experienced Coach</h3>
+                    <p>Most hockey field dimensions were originaly fixed using whole numbers of imperial measures</p>
+                </div>
+                <div class="text-center">
+                    <div class="font-extrabold text-yellow-400">
+                        <div class="radial-progress" style="--value:90;" role="progressbar">90%</div>
+                    </div>
+                    <h3 class="py-5 font-semibold">Senior Player</h3>
+                    <p>Most hockey field dimensions were originaly fixed using whole numbers of imperial measures</p>
+                </div>
+                <div class="text-center gap-4 ">
+                    <div class="font-extrabold text-blue-500">
+                        <div class="radial-progress" style="--value:80;" role="progressbar">80%</div>
+                    </div>
+                    <h3 class="py-5 font-semibold">Training Ground</h3>
+                    <p>Most hockey field dimensions were originaly fixed using whole numbers of imperial measures</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
